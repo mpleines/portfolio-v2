@@ -1,22 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: #FCEAFF;
+  color: #FCEAFF;
+  font-family: 'Roboto', sans-serif;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+h1,h2,h3,h4{
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 3em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.25em;
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+a {
+  font-size: 20px;
+  color: #333;
+  text-decoration: underline dotted;
+}
+
+a:hover {
+  text-decoration: underline #8333FF;
+}
+
+a:visited {
+  color: #333;
+}
+
+.nav-outer{
+  width: 100%;
+  background: #d7c5eb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  list-style-type:none;
 }
 
-.App-link {
-  color: #09d3ac;
+li { 
+  display: inline;
 }
+
+li:before {
+  font-size: 1.5em;
+  color: #8333FF;
+  content: '\203A ';
+}
+
+li a {
+  padding-bottom: 2px;
+}
+
+.project-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/**scale font size*/
+@media(min-width: 600px) {
+  .nav-outer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  ul{
+    height: 50px;
+    width: 65%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .project-wrapper{
+    margin: 50px;
+  }
+}
+
+@media(min-width: 1000px) {
+  h1{
+    font-size: 4.5em;
+  }
+  h3 {
+    font-size: 1.5em;
+  }
+  .nav-outer{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  ul {
+    height: 50px;
+    width: 35%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .project-wrapper{
+    margin: 50px;
+  }
+}
+
+

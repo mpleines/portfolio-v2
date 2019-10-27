@@ -1,0 +1,64 @@
+.project-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid #333;
+    border-radius: 10px;
+}
+
+.img-header {
+    height: 150px;
+    width: 100%;
+}
+
+.project-description{
+    width: 100%;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+}
+
+a {
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline dotted#8333FF;
+}
+
+a:visited {
+    color: #333;
+}
+
+.project-links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.small-link{
+    font-size: 16px;
+    text-decoration: underline #8333FF;
+}
+
+.small-link:hover{
+    text-decoration: underline dotted#36BAAB;
+}
+
+@media(min-width: 600px) {
+    .project-box{
+        margin: 10px;
+        width: 250px;
+    }
+}
