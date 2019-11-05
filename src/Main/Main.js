@@ -5,12 +5,19 @@ import ProjectCatalog from '../ProjectCatalog';
 const App = () => {
   return (
     <div className="main">
+      
+      <h1 class="title">
+        <a href="https://maikpleines.com/">Maik Pleines.</a>
+      </h1>
+
       <div className="welcome-banner">
         <div className="text-content">
-          <h1>Hi, I´m Maik!</h1>
-          <h3>I love to write Code - <i>mostly in JavaScript</i></h3>
+          <p class="p-banner">
+            <i>I love to write Code, mostly in JavaScript!</i>
+          </p>
         </div>
       </div>
+
 
       <nav className="navbar-outer">
         <ul className="navbar">

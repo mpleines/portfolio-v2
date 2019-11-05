@@ -1,12 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
 .main {
     width: 100%;
     margin: 15px;
 }
 
+.title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.title > a:link {
+    text-decoration: none;
+    color: #8333FF;
+}
+
+.title > a:hover {
+    cursor: pointer;
+}
+
+.title > a:visited {
+    color: #8333FF;
+}
+
+.p-banner {
+    font-family: 'Roboto', sans-serif;
+    margin: 5px;
+}
+
 .welcome-banner {
+    margin-bottom: 10px;
     background-color: #63BAAB;
-    padding-bottom: 30px;
-    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,10 +50,9 @@
 }
 
 /*responsive*/
-@media(min-width: 1200px) {
-    .welcome-banner {
-        padding-top: 60px;
-        padding-bottom: 60px;
+@media(max-width: 370px) {
+    .title {
+        font-size: 2.2em;
     }
 }
 

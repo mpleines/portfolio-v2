@@ -46,12 +46,11 @@ h3 {
 }
 
 .navbar li {
-  padding: 5px 10px 5px 0px;
   margin: 5px;
 }
 
 .navbar li a {
-  font-size: 1.5em;
+  font-size: 1.1em;
   text-decoration: none;
   color: #333;
   border-bottom: 3px dotted #8333FF;
@@ -80,7 +79,7 @@ li:before {
 }
 
 /**scale font size*/
-@media(min-width: 600px) {
+@media(min-width: 750px) {
   .project-wrapper{
     margin: 50px;
   }
@@ -100,12 +99,19 @@ li:before {
   }
 
   .navbar li {
-    margin: 0;
+    margin: 5px;
     padding: 0;
+  }
+
+  .navbar li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 3px dotted #8333FF;
   }
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1250px) {
   h1{
     font-size: 4.5em;
   }
