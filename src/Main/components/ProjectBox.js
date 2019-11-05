@@ -7,7 +7,7 @@ const ProjectBox = props => {
     return(
         <div className="project-box">
             <div className="img-header">
-                <img src={image} alt={alt}/>
+                <img src={image} alt={alt} />
             </div>
             <div className="project-description">
                 <h3>

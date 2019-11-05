@@ -5,7 +5,8 @@
 
 .welcome-banner {
     background-color: #63BAAB;
-    height: 150px;
+    padding-bottom: 30px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +29,8 @@
 /*responsive*/
 @media(min-width: 1200px) {
     .welcome-banner {
-        height: 300px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 }
 
