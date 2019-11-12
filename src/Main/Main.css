@@ -2,7 +2,8 @@
 
 .main {
     width: 100%;
-    margin: 15px;
+    background: white;
+    margin: 5px;
 }
 
 .title {
@@ -10,8 +11,7 @@
 }
 
 .title > a:link {
-    text-decoration: none;
-    color: #8333FF;
+    color: #333;
 }
 
 .title > a:hover {
@@ -19,7 +19,7 @@
 }
 
 .title > a:visited {
-    color: #8333FF;
+    color: #333;
 }
 
 .p-banner {
@@ -54,5 +54,12 @@
     .title {
         font-size: 2.2em;
     }
+}
+
+@media(min-width: 600px) {
+    .main  {
+        margin: 15px;
+    }
+
 }
 
