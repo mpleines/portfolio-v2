@@ -1,7 +1,9 @@
 import React from 'react';
 import './Main.css'
+import AboutMe from './AboutMe';
 import ProjectBox from './components/ProjectBox';
-import ProjectCatalog from '../ProjectCatalog';
+import ProjectCatalog from './ProjectCatalog';
+import Button from './components/Button';
 const App = () => {
   return (
     <div className="main">
@@ -18,25 +20,7 @@ const App = () => {
         </div>
       </div>
 
-
-      <nav className="navbar-outer">
-        <ul className="navbar">
-          <li>
-            <a href="http://localhost:3000">Projects</a>
-          </li>
-          <li>
-            <a href="http://localhost:3000">About me</a>
-          </li>
-          <li>
-            <a href="http://localhost:3000">GitHub</a>
-          </li>
-          <li>
-            <a href="mailto: maik.pleines@googlemail.com">E-Mail</a>
-          </li>
-        </ul> 
-      </nav>
-
-
+      <h2>Projects</h2>
       <div className="project-wrapper">
         {
           ProjectCatalog.map(project => {
@@ -47,7 +31,9 @@ const App = () => {
         }
       </div>
 
-
+      <Button buttonText="Show All Projects"/>
+      
+      <AboutMe />
     </div>
   );
 }

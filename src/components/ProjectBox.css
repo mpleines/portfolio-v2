@@ -1,6 +1,6 @@
 .project-box{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
+    padding: 10px;
     height: 350px;
     width: 100%;
     background-color: white;
@@ -70,6 +70,6 @@
 @media(min-width: 600px) {
     .project-box{
         margin: 10px;
-        width: 350px;
+        width: 450px;
     }
 }

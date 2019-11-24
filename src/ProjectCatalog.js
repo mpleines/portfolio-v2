@@ -30,18 +30,6 @@ const projects = [
     },
     {
     image: {
-          image: musicThingy,
-          alt: 'this is a gif of the musicThingy project'
-        },
-        title: 'MusicThingy',
-        description: 'Create your own beats with this little and fun project',
-        links: {
-            source: 'https://github.com/mpleines/music-thingy',
-            demo: 'https://music-thingy.netlify.com/'
-        }
-    },
-    {
-    image: {
         image: parcelReceiver,
             alt: 'this is a gif of the ParcelReceiver project'
         },
