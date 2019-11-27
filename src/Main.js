@@ -20,7 +20,7 @@ const App = () => {
         </div>
       </div>
 
-      <h2>Projects</h2>
+      <h2 class="title-underlined title-black title-margin">Projects</h2>
       <div className="project-wrapper">
         {
           ProjectCatalog.map(project => {

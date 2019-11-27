@@ -10,6 +10,11 @@
     font-family: 'Permanent Marker', cursive;
 }
 
+.title-margin {
+    text-align: center;
+    margin: 0;
+}
+
 .title > a:link {
     color: #333;
 }
@@ -50,15 +55,26 @@
 }
 
 /*responsive*/
-@media(max-width: 370px) {
+@media(max-width: 450px) {
     .title {
         font-size: 2.2em;
     }
+
+    .p-banner {
+        font-size: 1em;
+    }
+
+
 }
 
-@media(min-width: 600px) {
+@media(min-width: 770px) {
     .main  {
         margin: 15px;
+    }
+
+    .title-margin {
+        text-align: left;
+        margin-left: 1.5em;
     }
 
 }

@@ -1,9 +1,14 @@
+.about-me {
+    text-align: left;
+}
+
 .circular-top {
-    padding: 10px;
+    border-left: 1em solid #333;
+    padding: 2.5em;
     background-color: #63BAAB;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 h3 {
