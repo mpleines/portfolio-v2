@@ -94,18 +94,11 @@ li:before {
 .project-wrapper{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 /**scale font size*/
 @media(min-width: 750px) {
-  .App{ 
-    background-color: #FCEAFF;
-  }
-
-  .project-wrapper{
-    margin: 50px;
-  }
 
   nav {
     height: 50px;
@@ -143,9 +136,6 @@ li:before {
   }
   .navbar {
     width: 50%;
-  }
-  .project-wrapper{
-    margin: 50px;
   }
 }
 

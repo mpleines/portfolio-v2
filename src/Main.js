@@ -8,18 +8,15 @@ const App = () => {
   return (
     <div className="main">
       
-      <h1 class="title">
-        <a href="https://maikpleines.com/">Maik Pleines.</a>
-      </h1>
-
-      <div className="welcome-banner">
-        <div className="text-content">
-          <p class="p-banner">
-            <i>I love to write Code, mostly in JavaScript!</i>
-          </p>
+      <nav className="navbar">
+        <div className="navbar-title-container">
+          <a href="https://maikpleines.com" className="link-no-style">
+            <h3 className="navbar-title">Maik Pleines</h3>
+          </a>
         </div>
-      </div>
 
+      </nav>
+      <AboutMe />
       <h2 class="title-underlined title-black title-margin">Projects</h2>
       <div className="project-wrapper">
         {
@@ -31,9 +28,12 @@ const App = () => {
         }
       </div>
 
-      <Button buttonText="Show All Projects"/>
+      <a href="https://github.com/mpleines">
+        <Button buttonText="Show All Projects"/>
+      </a>
       
-      <AboutMe />
+      
+      
     </div>
   );
 }

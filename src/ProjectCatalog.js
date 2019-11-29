@@ -40,5 +40,41 @@ const projects = [
             demo: 'https://parcelreceiver.firebaseapp.com/'
         }
     },
+    {
+        image: {
+            image: parcelReceiver,
+                alt: 'this is a gif of the ParcelReceiver project'
+            },
+            title: 'ParcelReceiver',
+            description: 'Application for tracking your delivered and received parcel´s',
+            links: {
+                source: 'https://github.com/mpleines/parcelReceiver',
+                demo: 'https://parcelreceiver.firebaseapp.com/'
+            }
+        },
+        {
+            image: {
+                image: parcelReceiver,
+                    alt: 'this is a gif of the ParcelReceiver project'
+                },
+                title: 'ParcelReceiver',
+                description: 'Application for tracking your delivered and received parcel´s',
+                links: {
+                    source: 'https://github.com/mpleines/parcelReceiver',
+                    demo: 'https://parcelreceiver.firebaseapp.com/'
+                }
+            },
+            {
+                image: {
+                    image: parcelReceiver,
+                        alt: 'this is a gif of the ParcelReceiver project'
+                    },
+                    title: 'ParcelReceiver',
+                    description: 'Application for tracking your delivered and received parcel´s',
+                    links: {
+                        source: 'https://github.com/mpleines/parcelReceiver',
+                        demo: 'https://parcelreceiver.firebaseapp.com/'
+                    }
+                }
 ]
 export default projects;

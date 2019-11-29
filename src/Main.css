@@ -1,5 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
+.navbar  {
+    width: 45vw;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-no-style {
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-no-style:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar-title {
+    font-weight: bold;
+}
+
 .main {
     width: 100%;
     background: white;
@@ -12,7 +33,7 @@
 
 .title-margin {
     text-align: center;
-    margin: 0;
+    margin-bottom: .3em;
 }
 
 .title > a:link {
@@ -69,13 +90,14 @@
 
 @media(min-width: 770px) {
     .main  {
+        width: 75%;
         margin: 15px;
     }
 
-    .title-margin {
-        text-align: left;
-        margin-left: 1.5em;
+    .navbar{
+        width: 100%;
     }
+
 
 }
 

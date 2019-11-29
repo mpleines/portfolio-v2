@@ -2,18 +2,12 @@ import React from 'react';
 import './ProjectBox.css';
 
 const ProjectBox = props => {
-    const {image, alt} = props.project.image;
     const {title, description, links} = props.project;
     return(
         <div className="project-box">
-            <div className="img-header">
-                <a href={links.demo}>
-                    <img src={image} alt={alt} />
-                </a>
-            </div>
             <div className="project-description">
                 <h3>
-                    <a href={links.demo}>{title}</a>
+                    {title}
                 </h3>
                 <p>{description}</p>
             </div>

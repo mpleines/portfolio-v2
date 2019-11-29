@@ -1,20 +1,40 @@
 .about-me {
+    margin: 0 auto;
+    margin-top: 3em;
     text-align: left;
-}
-
-.circular-top {
+    padding-left: 1em;
+    padding-right: 1em;
     border-left: 1em solid #333;
-    padding: 2.5em;
-    background-color: #63BAAB;
+    color: #333;
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
 }
 
 h3 {
     width: 100%;
 }
 
-p {
-    font-size: 1.3em;
+.small-paragraph {
+    margin: .4em 0 .4em 0;
+    padding: 0;
+}
+
+.about-title {
+    margin: 0 0 .5em 0;
+}
+
+.big-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@media(min-width: 700px) {
+    .about-me {
+        max-width: 550px;
+    }
 }
