@@ -10,13 +10,13 @@
     justify-content: space-between;
     align-items: center;
     border-radius: 9px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px 0 rgb(51,51,51, 0.2);
     transition: 0.3s;
     text-align: left;
 }
 
 .project-box:hover{
-    box-shadow: 0 4px 8px 0 #333;
+    box-shadow: 0 4px 8px 0 rgb(51,51,51, 0.2);
 }
 
 .project-description{
@@ -33,21 +33,6 @@
     cursor: pointer;
 }
 
-.project-box a {
-    font-size: 20px;
-    color: #333;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.project-box a:hover {
-    text-decoration: underline solid#8333FF;
-}
-
-.project-box a:visited {
-    color: #333;
-}
-
 .project-links{
     width: 100%;
     display: flex;
@@ -55,13 +40,44 @@
 }
 
 .small-link{
-    font-size: 16px;
-    text-decoration: underline #8333FF;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    text-align: center;
+    margin: 2.5px;
+    font-size: 1.1em;
+    line-height: .6em;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 7px;
 }
 
-.small-link:hover{
-    text-decoration: underline dotted#36BAAB;
+.small-link:hover {
+    margin: 0;
+    border: 2.5px solid #8333FF;
 }
+
+.small-link-green {
+    background-color: #36BAAB;
+}
+
+.small-link-grey {
+    background-color: lightgrey;
+    color: #333;
+}
+
+.small-link-green:visited {
+    color: white;
+}
+
+.small-link-grey:visited {
+    background-color: lightgrey;
+    color: #333;
+}
+
 
 @media(min-width: 1025px) {
     .project-box{
