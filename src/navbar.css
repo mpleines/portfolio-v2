@@ -9,6 +9,8 @@
 }
 
 .navbar-content{
+    padding-left: 2em;
+    padding-right: 1em;
     max-width: 550px;
     margin: 0 auto;
     display: flex;
@@ -31,4 +33,11 @@
 
 .link-grey:hover {
     text-decoration: 1px underline #333;
+}
+
+@media(min-width: 550px) {
+    .navbar-content{
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
