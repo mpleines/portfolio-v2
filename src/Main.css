@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
 
-.navbar  {
-    text-align: left;
-    max-width: 550px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-}
-
 .link-no-style {
     width: 100%;
     cursor: pointer;
@@ -94,11 +86,6 @@
         width: 75%;
         margin: 15px;
     }
-
-    .navbar{
-        width: 100%;
-    }
-
 
 }
 

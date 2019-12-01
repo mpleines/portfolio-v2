@@ -7,15 +7,6 @@ import Button from './components/Button';
 const App = () => {
   return (
     <div className="main">
-      
-      <nav className="navbar">
-        <div className="navbar-title-container">
-          <a href="https://maikpleines.com" className="link-no-style">
-            <h3 className="navbar-title">Maik Pleines</h3>
-          </a>
-        </div>
-
-      </nav>
       <AboutMe />
       <h2 class="title-underlined title-black title-margin">Projects</h2>
       <div className="project-wrapper">

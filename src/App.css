@@ -46,47 +46,6 @@ h3 {
   text-decoration: 5px underline #8333FF;
 }
 
-.navbar-outer {
-  width: 100%;
-  background: #d7c5eb;
-}
-
-.navbar {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 5px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  list-style-type: none;
-}
-
-.navbar li {
-  margin: 5px;
-}
-
-.navbar li a {
-  font-size: 1.1em;
-  text-decoration: none;
-  color: #333;
-  border-bottom: 3px dotted #8333FF;
-}
-
-.navbar li a:hover {
-  text-decoration: none;
-  border-bottom: 3px solid#8333FF;
-}
-
-.navbar li a:visited {
-  color: #333;
-}
-
-.navbar-title {
-  width: 100%;
-}
-
 li:before {
   font-size: 1.5em;
   color: #8333FF;
@@ -100,45 +59,12 @@ li:before {
   justify-content: center;
 }
 
-/**scale font size*/
-@media(min-width: 750px) {
-
-  nav {
-    height: 50px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .navbar {
-    max-width: 550px;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-  }
-
-  .navbar li {
-    margin: 5px;
-    padding: 0;
-  }
-
-  .navbar li a {
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #333;
-    border-bottom: 3px dotted #8333FF;
-  }
-}
-
 @media(min-width: 1250px) {
   h1{
     font-size: 4.5em;
   }
   h3 {
     font-size: 1.5em;
-  }
-  .navbar {
-    width: 50%;
   }
 }
 
