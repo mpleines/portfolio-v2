@@ -46,13 +46,6 @@ h3 {
   text-decoration: 5px underline #8333FF;
 }
 
-li:before {
-  font-size: 1.5em;
-  color: #8333FF;
-  content: '\203A ';
-  padding-right: 5px;
-}
-
 .project-wrapper{
   display: flex;
   flex-wrap: wrap;

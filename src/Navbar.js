@@ -1,9 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './navbar.css'
 
-const Navbar = () => {
+const Navbar = (props) => {
   const [hasScrolled, setHasScrolled] = useState(false);
-  const [openHamburgerMenu, setOpenHamburgerMenu] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
 
   const handleScroll = () => {
@@ -14,7 +13,7 @@ const Navbar = () => {
     }
   };
 
-  useEffect(() => document.addEventListener('scroll', handleScroll));
+  useEffect(() => document.addEventListener('scroll', handleScroll), []);
 
   const handleWindowResize = () => {
     setIsMobile(window.innerWidth < 480);
@@ -24,10 +23,6 @@ const Navbar = () => {
   // initially we also have to check the size of display
   useEffect(() => handleWindowResize(), []);
 
-  const toggleHamburgerMenu = () => {
-    setOpenHamburgerMenu(!openHamburgerMenu);
-  }
-
   return (
     <nav className="navbar" style={hasScrolled ? {boxShadow: '0 2px 4px 0 rgb(51,51,51, 0.2)'} : null}>
         <div className="navbar-content" >
@@ -36,12 +31,11 @@ const Navbar = () => {
             </a>
             {isMobile ? (
             <div>
-              <div className={'hamburger-menu ' + (openHamburgerMenu ? 'hamburger-menu-open': '')} onClick={toggleHamburgerMenu}>
+              <div className="hamburger-menu" onClick={props.toggleModal}>
                 <div className="line line1"></div>
                 <div className="line line2"></div>
                 <div className="line line3"></div>
               </div>
-              {openHamburgerMenu ? <div className="menu-modal"></div> : null}
             </div>
             ) : (
             <div className="navbar-links">

@@ -1,12 +1,6 @@
-import clonergram from './assets/clonergram.PNG';
-import blog from './assets/blog.PNG';
-import musicThingy from './assets/music-thingy.gif'
-import parcelReceiver from './assets/parcelReceiver.PNG'
-
 const projects = [
     {
         image: {
-          image: clonergram,
           alt: 'this is a screenshot of the clonergram app'
         },
         title: 'Clonergram',
@@ -18,7 +12,6 @@ const projects = [
     },
     {
         image: {
-          image: blog,
           alt: 'this is a screenshot of my personal blog'
         },
         title: 'The DevShip',
@@ -30,7 +23,6 @@ const projects = [
     },
     {
     image: {
-        image: parcelReceiver,
             alt: 'this is a gif of the ParcelReceiver project'
         },
         title: 'ParcelReceiver',
@@ -42,7 +34,6 @@ const projects = [
     },
     {
         image: {
-            image: parcelReceiver,
                 alt: 'this is a gif of the ParcelReceiver project'
             },
             title: 'ParcelReceiver',
@@ -54,7 +45,6 @@ const projects = [
         },
         {
             image: {
-                image: parcelReceiver,
                     alt: 'this is a gif of the ParcelReceiver project'
                 },
                 title: 'ParcelReceiver',
@@ -66,7 +56,6 @@ const projects = [
             },
             {
                 image: {
-                    image: parcelReceiver,
                         alt: 'this is a gif of the ParcelReceiver project'
                     },
                     title: 'ParcelReceiver',
