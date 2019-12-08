@@ -10,6 +10,7 @@
 }
 
 .navbar-content{
+    margin: 0 auto;
     padding-left: 2em;
     padding-right: 1em;
     max-width: 550px;
@@ -36,9 +37,12 @@
 }
 
 .hamburger-menu{
-    z-index: 9999;
     display: inline-block;
     cursor: pointer;
+}
+
+.hambuger-menu-open {
+    opacity: 0;
 }
 
 .line{

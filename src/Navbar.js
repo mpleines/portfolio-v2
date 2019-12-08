@@ -4,6 +4,7 @@ import './navbar.css'
 const Navbar = (props) => {
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
+  const {showModal, toggleModal} = props;
 
   const handleScroll = () => {
     if(window.scrollY > 0) {
@@ -23,6 +24,8 @@ const Navbar = (props) => {
   // initially we also have to check the size of display
   useEffect(() => handleWindowResize(), []);
 
+  useEffect(() => console.log('ich wurde soeben gerendereddddd'), []);
+
   return (
     <nav className="navbar" style={hasScrolled ? {boxShadow: '0 2px 4px 0 rgb(51,51,51, 0.2)'} : null}>
         <div className="navbar-content" >
@@ -30,10 +33,10 @@ const Navbar = (props) => {
                 <h3 className="navbar-title">Maik Pleines</h3>
             </a>
             {isMobile ? (
-              <div className="hamburger-menu" onClick={props.toggleModal}>
-                <div className="line line1"></div>
-                <div className="line line2"></div>
-                <div className="line line3"></div>
+              <div className="hamburger-menu" onClick={toggleModal}>
+                <div className="line line1" style={showModal ? {transform: 'rotate(45deg) translate(1px, 3px)'} : null}></div>
+                <div className="line line2" style={showModal ? {opacity: 0}: null}></div>
+                <div className="line line3" style={showModal ? {transform: 'rotate(-45deg) translate(8px, -8px)', margin: 0} : null}></div>
               </div>
             ) : (
             <div className="navbar-links">
