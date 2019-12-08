@@ -13,12 +13,10 @@ function App() {
   };
   
   return (
-    <div className="App">
+    <div className="App">      
+      <Navbar toggleModal={toggleModal}/>
       {showModal ? <MenuModal toggleModal={toggleModal}/> : 
-        <React.Fragment>
-          <Navbar toggleModal={toggleModal}/>
-          <Main />
-        </React.Fragment>
+        <Main />
       }
     </div>
   );

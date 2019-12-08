@@ -30,13 +30,11 @@ const Navbar = (props) => {
                 <h3 className="navbar-title">Maik Pleines</h3>
             </a>
             {isMobile ? (
-            <div>
               <div className="hamburger-menu" onClick={props.toggleModal}>
                 <div className="line line1"></div>
                 <div className="line line2"></div>
                 <div className="line line3"></div>
               </div>
-            </div>
             ) : (
             <div className="navbar-links">
               <a href="asdas" className="link link-no-style link-grey">About</a>
