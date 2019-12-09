@@ -4,6 +4,9 @@ import AboutMe from './AboutMe';
 import ProjectBox from './components/ProjectBox';
 import ProjectCatalog from './ProjectCatalog';
 import Button from './components/Button';
+import Contact from './Contact';
+import Footer from './Footer';
+
 const App = () => {
   return (
     <div className="main">
@@ -24,7 +27,9 @@ const App = () => {
       </a>
       
       
-      
+      <h2 class="title-underlined title-black title-margin">Contact</h2>
+      <Contact />
+      <Footer />
     </div>
   );
 }

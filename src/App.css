@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
+textarea, input, button, select { font-family: inherit; font-size: inherit; }
+
 .App {
   text-align: center;
   background-color: white;
@@ -29,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25em;
+  font-size: 2em;
   font-style: normal;
   font-weight: normal;
 }
