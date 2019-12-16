@@ -4,7 +4,7 @@ import './aboutMe.css'
 const AboutMe = () => {
   return (
     <div className="about-me">
-      <h2 class="title-underlined about-title">About Me</h2>
+      <h2 id="about" class="title-underlined about-title">About Me</h2>
       <h3 class="navbar-title">
         Hi, I´m Maik! 
         <span role="img" aria-label="peace emoji">✌️</span>

@@ -24,11 +24,9 @@ const Navbar = (props) => {
   // initially we also have to check the size of display
   useEffect(() => handleWindowResize(), []);
 
-  useEffect(() => console.log('ich wurde soeben gerendereddddd'), []);
-
   return (
     <nav className="navbar" style={hasScrolled ? {boxShadow: '0 2px 4px 0 rgb(51,51,51, 0.2)'} : null}>
-        <div className="navbar-content" >
+        <div className="navbar-content">
             <a href="https://maikpleines.com" className="link-no-style">
                 <h3 className="navbar-title">Maik Pleines</h3>
             </a>
@@ -40,9 +38,9 @@ const Navbar = (props) => {
               </div>
             ) : (
             <div className="navbar-links">
-              <a href="asdas" className="link link-no-style link-grey">About</a>
-              <a href="asdasd" className="link link-no-style link-grey">Projects</a>
-              <a href="asdasd" className="link link-no-style link-grey">Contact</a>
+              <a href="#about" className="link link-no-style link-grey">About</a>
+              <a href="#projects" className="link link-no-style link-grey">Projects</a>
+              <a href="#contact" className="link link-no-style link-grey">Contact</a>
             </div>
             )}
         </div>

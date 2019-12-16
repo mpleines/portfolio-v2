@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">      
       <Navbar toggleModal={toggleModal} showModal={showModal}/>
-      {showModal ? <MenuModal showModal={showModal} /> : 
+      {showModal ? <MenuModal showModal={showModal} toggleModal={toggleModal}/> : 
         <Main />
       }
     </div>

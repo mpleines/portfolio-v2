@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div className="main">
       <AboutMe />
-      <h2 class="title-underlined title-black title-margin">Projects</h2>
+      <h2 id="projects" class="title-underlined title-black title-margin">Projects</h2>
       <div className="project-wrapper">
         {
           ProjectCatalog.map(project => {
@@ -25,7 +25,6 @@ const App = () => {
       <a href="https://github.com/mpleines">
         <Button buttonText="Show All Projects"/>
       </a>
-      
       
       <h2 class="title-underlined title-black title-margin">Contact</h2>
       <Contact />
