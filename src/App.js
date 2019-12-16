@@ -4,7 +4,6 @@ import './MenuModal.css'
 import Navbar from './Navbar';
 import Main from './Main';
 import MenuModal from './NavbarModal';
-import Footer from './Footer';
 
 function App() {
   const [showModal, setShowModal] = useState(false);

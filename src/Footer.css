@@ -1,0 +1,40 @@
+.footer {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    margin-top: 2em;
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    left: 0;
+    color: white;
+    text-align: left;
+}
+
+.footer-wrapper {
+    margin: 0 auto;
+    max-width: 550px;
+    display: flex;
+    align-items: stretch;
+}
+
+.footer-segment {
+    margin-right: 1em;
+    line-height: 1.5em;
+    max-width: 300px;
+}
+
+.footer-created {
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width: 450px) {
+    .footer-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-segment {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}

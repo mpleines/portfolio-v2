@@ -10,6 +10,20 @@
     color: #333;
 }
 
+.link-no-style-white {
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+
+.link-no-style-white:visited {
+    color: white;
+}
+
+.link-no-style-white:hover {
+    color: #8333FF;
+}
+
 .navbar-title {
     font-weight: bold;
 }
