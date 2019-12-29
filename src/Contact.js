@@ -13,8 +13,7 @@ const Contact = () => {
       name: name,
       emailFrom: emailFrom,
       message_html: text
-    });
-  };
+    })}
 
   return (
     <form className="contact">

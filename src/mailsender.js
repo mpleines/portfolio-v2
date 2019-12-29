@@ -1,4 +1,5 @@
 import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
 
 const sendMail = (variables) => {
     const templateId = 'portfolio';
@@ -7,10 +8,12 @@ const sendMail = (variables) => {
         'gmail', 
         templateId,
         variables
-    ).then(res => {
-        console.log('Email successfully sent!')
+    ).then(res => toast.success('Email successfully sent!', {
+    position: toast.POSITION.BOTTOM_CENTER
+    })).catch(err => {
+    toast.error(err, {
+        position: toast.POSITION.BOTTOM_CENTER
     })
-    .catch(err => console.error(err));
-}
-
+    })
+};
 export default sendMail;
