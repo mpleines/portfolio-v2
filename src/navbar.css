@@ -24,15 +24,12 @@
     justify-content: space-around;
 }
 
-.link {
+.navbar-link {
+    color: #333;
     margin-left: 1em;
 }
 
-.link-grey {
-    color: #333;
-}
-
-.link-grey:hover {
+.navbar-link:hover {
     text-decoration: 1px underline #333;
 }
 

@@ -16,9 +16,9 @@ const Footer = () => {
         <div class="footer-segment">
           <h4>Social Links</h4>
           <p>
-            <a href="https://github.com/mpleines" className="link-no-style-white">github.com/mpleines</a>
-            <a href="https://github.com/mpleines" className="link-no-style-white">twitter.com/mpleines</a>
-            <a href="https://github.com/mpleines" className="link-no-style-white">github.com/mpleines</a>
+            <a href="https://github.com/mpleines" className="link social-link">github.com/mpleines</a>
+            <a href="https://github.com/mpleines" className="link social-link">twitter.com/mpleines</a>
+            <a href="https://github.com/mpleines" className="link social-link">github.com/mpleines</a>
           </p>
         </div>
       </div>

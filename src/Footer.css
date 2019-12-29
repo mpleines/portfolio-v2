@@ -14,7 +14,6 @@
     margin: 0 auto;
     max-width: 550px;
     display: flex;
-    align-items: stretch;
 }
 
 .footer-segment {
@@ -27,14 +26,21 @@
     text-align: center;
 }
 
+.social-link {
+    display: inline-block;
+    width: 100%;
+}
+
 @media(max-width: 450px) {
     .footer-wrapper {
         flex-wrap: wrap;
-        justify-content: center;
+        align-items: center;
     }
     .footer-segment {
         width: 100%;
+        display: flex;
+        align-items: center;
         flex-wrap: wrap;
-        margin: 0;
+        margin: 10px;
     }
 }
