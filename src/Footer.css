@@ -29,6 +29,11 @@
 .social-link {
     display: inline-block;
     width: 100%;
+    color: rgb(155, 88, 255);
+}
+
+.social-link:visited {
+    color: rgb(155, 88, 255);
 }
 
 @media(max-width: 450px) {

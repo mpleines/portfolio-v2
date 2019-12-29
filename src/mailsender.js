@@ -8,9 +8,13 @@ const sendMail = (variables) => {
         'gmail', 
         templateId,
         variables
-    ).then(res => toast.success('Email successfully sent!', {
-    position: toast.POSITION.BOTTOM_CENTER
-    })).catch(err => {
+    ).then(res => {
+        toast.success('Email successfully sent!', {
+            position: toast.POSITION.BOTTOM_CENTER}
+        );
+        document.getElementById('contact-form').reset();
+    }
+    ).catch(err => {
     toast.error(err, {
         position: toast.POSITION.BOTTOM_CENTER
     })
