@@ -16,10 +16,12 @@
 
 .banner-link {
     color: white;
-
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .banner-link:hover {
+    color: #ff8f33;
     text-decoration: underline;
 }
 
@@ -32,4 +34,10 @@
     height: auto;
     margin-right: 15px;
     filter: invert(1);
+}
+
+@media(max-width: 450px) {
+    .banner-wrapper {
+        margin: 10px;
+    }
 }
