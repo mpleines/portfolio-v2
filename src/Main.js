@@ -6,12 +6,14 @@ import ProjectCatalog from './ProjectCatalog';
 import Button from './components/Button';
 import Contact from './Contact';
 import Footer from './Footer';
+import Banner from './components/Banner';
 
 const App = () => {
   return (
     <div className="main">
       <AboutMe />
       <h2 id="projects" class="title-underlined title-black title-margin">Projects</h2>
+      <Banner />
       <div className="project-wrapper">
         {
           ProjectCatalog.map(project => {
