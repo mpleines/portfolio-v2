@@ -1,8 +1,5 @@
 const projects = [
     {
-        image: {
-          alt: 'this is a screenshot of the clonergram app'
-        },
         title: 'Clonergram',
         description: 'An Instagram Clone',
         links: {
@@ -11,9 +8,6 @@ const projects = [
         }
     },
     {
-        image: {
-          alt: 'this is a screenshot of my personal blog'
-        },
         title: 'The DevShip',
         description: 'My own personal blog - it also includes a dark mode!',
         links: {
@@ -22,9 +16,6 @@ const projects = [
         }
     },
     {
-    image: {
-            alt: 'this is a gif of the ParcelReceiver project'
-        },
         title: 'ParcelReceiver',
         description: 'Application for tracking your delivered and received parcel´s',
         links: {
@@ -33,37 +24,28 @@ const projects = [
         }
     },
     {
-        image: {
-                alt: 'this is a gif of the ParcelReceiver project'
-            },
-            title: 'ParcelReceiver',
-            description: 'Application for tracking your delivered and received parcel´s',
-            links: {
-                source: 'https://github.com/mpleines/parcelReceiver',
-                demo: 'https://parcelreceiver.firebaseapp.com/'
-            }
-        },
-        {
-            image: {
-                    alt: 'this is a gif of the ParcelReceiver project'
-                },
-                title: 'ParcelReceiver',
-                description: 'Application for tracking your delivered and received parcel´s',
-                links: {
-                    source: 'https://github.com/mpleines/parcelReceiver',
-                    demo: 'https://parcelreceiver.firebaseapp.com/'
-                }
-            },
-            {
-                image: {
-                        alt: 'this is a gif of the ParcelReceiver project'
-                    },
-                    title: 'ParcelReceiver',
-                    description: 'Application for tracking your delivered and received parcel´s',
-                    links: {
-                        source: 'https://github.com/mpleines/parcelReceiver',
-                        demo: 'https://parcelreceiver.firebaseapp.com/'
-                    }
-                }
+        title: 'EasyCustomer',
+        description: 'A CRUD Application which allows you to store customer information in a mongoDB Database.',
+        links: {
+            source: 'https://github.com/mpleines/EasyCustomer',
+            demo: 'https://easycustomer.herokuapp.com'
+        }
+    },
+    {
+        title: 'MusicThingy',
+        description: 'You can make your own beats with this little and fun Application',
+        links: {
+            source: 'https://github.com/mpleines/music-thingy',
+            demo: 'https://music-thingy.netlify.com/'
+        }
+    },
+    {
+        title: 'BarcodeFoodInfo',
+        description: 'Get information about your food/drink simply by scanning a barcode!',
+        links: {
+            source: 'https://github.com/mpleines/barcodefoodinfo',
+            demo: 'http://barcodefoodinfo.herokuapp.com/'
+        }
+    }
 ]
 export default projects;
