@@ -25,12 +25,13 @@
 }
 
 .navbar-link {
+    text-decoration: none;
     color: #333;
     margin-left: 1em;
 }
 
 .navbar-link:hover {
-    text-decoration: 1px underline #333;
+    text-decoration: underline;
 }
 
 .hamburger-menu{

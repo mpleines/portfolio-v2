@@ -38,9 +38,9 @@ const Navbar = (props) => {
               </div>
             ) : (
             <div className="navbar-links">
-              <a href="#about" className="link-no-style navbar-link">About</a>
-              <a href="#projects" className="link-no-style navbar-link">Projects</a>
-              <a href="#contact" className="link-no-style navbar-link">Contact</a>
+              <a href="#about" className="navbar-link">About</a>
+              <a href="#projects" className="navbar-link">Projects</a>
+              <a href="#contact" className="navbar-link">Contact</a>
             </div>
             )}
         </div>
