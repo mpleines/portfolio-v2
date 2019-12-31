@@ -5,7 +5,8 @@ const projects = [
         links: {
             source: 'https://github.com/mpleines/clonergram',
             demo: 'https://wizardly-bose-04d5eb.netlify.com/'
-        }
+        },
+        color: 'gradient-purple-orange'
     },
     {
         title: 'The DevShip',
@@ -13,7 +14,8 @@ const projects = [
         links: {
             source: 'https://github.com/mpleines/blog',
             demo: 'https://optimistic-bhaskara-a30de8.netlify.com/'
-        }
+        },
+        color: 'gradient-purple-green'
     },
     {
         title: 'ParcelReceiver',
@@ -21,7 +23,8 @@ const projects = [
         links: {
             source: 'https://github.com/mpleines/parcelReceiver',
             demo: 'https://parcelreceiver.firebaseapp.com/'
-        }
+        },
+        color: 'gradient-orange-green'
     },
     {
         title: 'EasyCustomer',
@@ -29,7 +32,8 @@ const projects = [
         links: {
             source: 'https://github.com/mpleines/EasyCustomer',
             demo: 'https://easycustomer.herokuapp.com'
-        }
+        },
+        color: 'gradient-yellow-purple'
     },
     {
         title: 'MusicThingy',
@@ -37,7 +41,8 @@ const projects = [
         links: {
             source: 'https://github.com/mpleines/music-thingy',
             demo: 'https://music-thingy.netlify.com/'
-        }
+        },
+        color: 'gradient-green-pink'
     },
     {
         title: 'BarcodeFoodInfo',
@@ -45,7 +50,8 @@ const projects = [
         links: {
             source: 'https://github.com/mpleines/barcodefoodinfo',
             demo: 'http://barcodefoodinfo.herokuapp.com/'
-        }
+        },
+        color: 'gradient-pink-yellow'
     }
 ]
 export default projects;
