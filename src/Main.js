@@ -4,7 +4,7 @@ import AboutMe from './AboutMe';
 import ProjectWrapper from './ProjectWrapper';
 import Contact from './Contact';
 import Footer from './Footer';
-import Banner from './components/Banner';
+import Banner from './Banner';
 
 const App = () => {
   return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import './Banner.css';
-
-import attention from '../assets/attention.svg';
+import attention from './assets/attention.svg';
 
 const Banner = () => {
   return (
