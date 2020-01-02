@@ -3,7 +3,6 @@ import './Main.css'
 import AboutMe from './AboutMe';
 import ProjectBox from './components/ProjectBox';
 import ProjectCatalog from './ProjectCatalog';
-import Button from './components/Button';
 import Contact from './Contact';
 import Footer from './Footer';
 import Banner from './components/Banner';
@@ -23,10 +22,6 @@ const App = () => {
           })
         }
       </div>
-
-      <a href="https://github.com/mpleines">
-        <Button buttonText="Show All Projects"/>
-      </a>
       
       <h2 class="title-underlined title-black title-margin">Contact</h2>
       <Contact />
