@@ -17,8 +17,8 @@ const Footer = () => {
           <h4>Social Links</h4>
           <p>
             <a href="https://github.com/mpleines" className="link social-link">github.com/mpleines</a>
-            <a href="https://github.com/mpleines" className="link social-link">twitter.com/mpleines</a>
-            <a href="https://github.com/mpleines" className="link social-link">github.com/mpleines</a>
+            <a href="https://twitter.com/maikcodes" className="link social-link">twitter.com/maikcodes</a>
+            <a href="https://https://dev.to/maikcodes" className="link social-link">dev.to/maikcodes</a>
           </p>
         </div>
       </div>
