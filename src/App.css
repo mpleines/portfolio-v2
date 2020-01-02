@@ -2,6 +2,9 @@
 
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
+body, html {
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
   background-color: white;
@@ -66,12 +69,6 @@ h3 {
 
 .title-underlined {
   text-transform: uppercase;
-}
-
-.project-wrapper{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 @media(min-width: 1250px) {

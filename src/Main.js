@@ -1,8 +1,7 @@
 import React from 'react';
 import './Main.css'
 import AboutMe from './AboutMe';
-import ProjectBox from './components/ProjectBox';
-import ProjectCatalog from './ProjectCatalog';
+import ProjectWrapper from './ProjectWrapper';
 import Contact from './Contact';
 import Footer from './Footer';
 import Banner from './components/Banner';
@@ -13,15 +12,7 @@ const App = () => {
       <AboutMe />
       <h2 id="projects" class="title-underlined title-black title-margin">Projects</h2>
       <Banner />
-      <div className="project-wrapper">
-        {
-          ProjectCatalog.map(project => {
-            return (
-              <ProjectBox key={project.title} project={project} />
-            )
-          })
-        }
-      </div>
+      <ProjectWrapper />
       
       <h2 class="title-underlined title-black title-margin">Contact</h2>
       <Contact />

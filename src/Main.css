@@ -68,13 +68,11 @@
     .p-banner {
         font-size: 1em;
     }
-
-
 }
 
 @media(min-width: 770px) {
     .main  {
-        width: 75%;
+        max-width: 1200px;
         margin: 15px;
     }
 
