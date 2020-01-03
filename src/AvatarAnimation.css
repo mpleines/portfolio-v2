@@ -16,6 +16,15 @@
     transform-box: fill-box;
 }
 
+/*remove animation on Microsoft Edge*/
+@supports (-ms-ime-align: auto) {
+    #quadrat-top-left, 
+    #quadrat-bottom-left,
+    #quadrat-top-right {
+        animation-name: none;
+    }
+}
+
 @keyframes quadrat-normal {
     from {
         transform: rotateZ(0deg);
