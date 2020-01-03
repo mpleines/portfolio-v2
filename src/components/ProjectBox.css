@@ -58,6 +58,11 @@
     text-decoration: underline;
 }
 
+/*if a user tabs onto a project card, also apply styles*/
+.project-link:focus .project-title{
+    text-decoration: underline;
+}
+
 .project-link:visited {
     text-decoration: none;
     color: white;

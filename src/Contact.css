@@ -19,6 +19,10 @@
     border-bottom: 2px solid #FF8151;
 }
 
+.contactInput:invalid {
+    border-bottom: 2px solid rgb(253, 33, 33); 
+}
+
 .contactTitle{
     color: 'white';
 }
@@ -39,5 +43,9 @@
     color: white;
 }
 .sendButton:hover{
+    background-color: rgb(255, 116, 61);
+}
+
+.sendButton:focus{
     background-color: rgb(255, 116, 61);
 }

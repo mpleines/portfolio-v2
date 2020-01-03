@@ -55,6 +55,10 @@ h3 {
   text-decoration: underline;
 }
 
+.link:focus {
+  text-decoration: underline;
+}
+
 .link-no-style {
   text-decoration: none;
 }

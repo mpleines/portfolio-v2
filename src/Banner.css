@@ -26,6 +26,11 @@
     text-decoration: underline;
 }
 
+.banner-link:focus {
+    color: #ff8f33;
+    text-decoration: underline;
+}
+
 .banner-link:visited {
     color: 'white';
 }

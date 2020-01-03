@@ -56,10 +56,15 @@ const Contact = () => {
         <input type="email" placeholder="Your email" className="contactInput" name="mail" 
           onChange={e => setEmailFrom(e.target.value)}
         />
-        <textarea placeholder="Your message" className="contactInput" name="comment" 
+        <textarea 
+          placeholder="Your message" 
+          className="contactInput" 
+          name="comment" 
           onChange={e => setText(e.target.value)}
+          onSubmit={e => handleSubmit(e)}
         ></textarea>
-        <button type="submit" 
+        <button 
+          type="button" 
           className="sendButton"
           onClick={e => handleSubmit(e)}
         >SEND</button>
