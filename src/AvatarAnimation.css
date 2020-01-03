@@ -4,7 +4,7 @@
     height: auto;
 }
 
-#quadrat-top-left {
+#quadrat-top-left, #quadrat-bottom-left {
     animation: quadrat-normal 4s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
@@ -12,12 +12,6 @@
 
 #quadrat-top-right {
     animation: quadrat-inverted 6s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-#quadrat-bottom-left {
-    animation: quadrat-normal 8s infinite linear;
     transform-origin: center;
     transform-box: fill-box;
 }
