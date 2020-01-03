@@ -1,5 +1,6 @@
 import React from 'react';
-import './Main.css'
+import './Main.css';
+import AvatarAnimation from './AvatarAnimation';
 import AboutMe from './AboutMe';
 import ProjectWrapper from './ProjectWrapper';
 import Contact from './Contact';
@@ -9,6 +10,7 @@ import Banner from './Banner';
 const App = () => {
   return (
     <div className="main">
+      <AvatarAnimation />
       <AboutMe />
       <h2 id="projects" class="title-underlined title-black title-margin">Projects</h2>
       <Banner />

@@ -1,0 +1,43 @@
+.avatar-animation {
+    margin-top: 6em;
+    width: 100%;
+    height: auto;
+}
+
+#quadrat-top-left {
+    animation: quadrat-normal 4s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#quadrat-top-right {
+    animation: quadrat-inverted 6s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#quadrat-bottom-left {
+    animation: quadrat-normal 8s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes quadrat-normal {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes quadrat-inverted {
+    from {
+        transform: rotateZ(360deg);
+    }
+
+    to {
+        transform: rotateZ(0deg);
+    }
+}
