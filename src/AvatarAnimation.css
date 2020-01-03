@@ -16,6 +16,12 @@
     transform-box: fill-box;
 }
 
+#foot {
+    animation: foot .6s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box; 
+}
+
 /*remove animation on Microsoft Edge*/
 @supports (-ms-ime-align: auto) {
     #quadrat-top-left, 
@@ -42,5 +48,15 @@
 
     to {
         transform: rotateZ(0deg);
+    }
+}
+
+@keyframes foot {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(-3deg);
     }
 }
