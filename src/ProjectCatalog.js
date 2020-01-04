@@ -4,7 +4,7 @@ const projects = [
         description: 'An Instagram Clone',
         links: {
             source: 'https://github.com/mpleines/clonergram',
-            demo: 'https://wizardly-bose-04d5eb.netlify.com/'
+            demo: 'https://festive-williams-25fd38.netlify.com'
         },
         color: 'gradient-purple-orange'
     },
