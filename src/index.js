@@ -5,7 +5,7 @@ import App from './App';
 
 // Google Analytics
 import ReactGA from 'react-ga';
-const trackingId = 'UA-146888592-1'; 
+const trackingId = process.env.REACT_APP_googleAnalyticsId; 
 ReactGA.initialize(trackingId);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
